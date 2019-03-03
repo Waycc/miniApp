@@ -1,0 +1,4 @@
+{
+    "mongoUrl": "mongodb://localhost/mini_app",
+    "useMongoClient": true
+}
