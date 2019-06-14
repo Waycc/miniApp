@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const settings = require('../settings.json')
 
 // 连接数据库
-mongoose.connect(settings.mongoUrl, { useMongoClient: settings.useMongoClient })
+mongoose.connect(settings.mongoUrl)
 
 var Schema = mongoose.Schema
 
